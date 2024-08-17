@@ -10,10 +10,10 @@ else:
     elif(computer=="snake" and you=="water"):
         print("You lost")
     elif(computer=="water" and you=="snake"):
-        print("You lost")
-    elif(computer=="gun" and you=="water"):
-        print("You win")
-    elif(computer=="water" and you=="snake"):
         print("You win")
     elif(computer=="water" and you=="gun"):
         print("You lost")
+    elif(computer=="gun" and you=="snake"):
+        print("You lost")
+    elif(computer=="gun" and you=="water"):
+        print("You win")
