@@ -7,6 +7,7 @@ while(answer=="yes"):
     print("You chose: "+you+" and the computer chose: "+computer)
     if(computer==you):
         print("Its a draw")
+        print("-------------------------------------------------------------------")
     else:
         if(computer=="snake" and you=="gun"):
             print("You won")
@@ -20,6 +21,7 @@ while(answer=="yes"):
             print("You lost")
         elif(computer=="gun" and you=="water"):
             print("You win")
+        print("-------------------------------------------------------------------")
     print("Do you wanna play again?")
     answer=input()
     if(answer=="no"):
